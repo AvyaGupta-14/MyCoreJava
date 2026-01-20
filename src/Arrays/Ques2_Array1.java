@@ -1,0 +1,22 @@
+package Arrays;
+import java.util.Scanner;
+
+public class Ques2_Array1 {
+
+	public static void main(String[] args) {
+		int arr[] = new int[8];
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a value: ");
+		int sum = 0;
+		
+		for(int i=0;i<8;i++) {
+			arr[i] = sc.nextInt();
+			sum = sum + arr[i];
+			
+		}
+		System.out.println("Sum of numbers: " + sum);
+	}
+
+}
+
+
